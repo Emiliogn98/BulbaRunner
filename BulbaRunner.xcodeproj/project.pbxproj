@@ -15,6 +15,11 @@
 		E33B722A2A143A1800C1CB6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33B72282A143A1800C1CB6D /* Main.storyboard */; };
 		E33B722C2A143A1900C1CB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33B722B2A143A1900C1CB6D /* Assets.xcassets */; };
 		E33B722F2A143A1900C1CB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33B722D2A143A1900C1CB6D /* LaunchScreen.storyboard */; };
+		E37347AF2A1591E7000D4E63 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = E37347AE2A1591E7000D4E63 /* ground.png */; };
+		E37347B12A159228000D4E63 /* bulba.png in Resources */ = {isa = PBXBuildFile; fileRef = E37347B02A159228000D4E63 /* bulba.png */; };
+		E37347B32A15925F000D4E63 /* cactus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E37347B22A15925F000D4E63 /* cactus.jpeg */; };
+		E37347B52A159287000D4E63 /* candy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E37347B42A159287000D4E63 /* candy.jpg */; };
+		E37347B72A1592AE000D4E63 /* bush.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E37347B62A1592AE000D4E63 /* bush.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		E33B72292A143A1800C1CB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E33B722B2A143A1900C1CB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33B722E2A143A1900C1CB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E37347AE2A1591E7000D4E63 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		E37347B02A159228000D4E63 /* bulba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulba.png; sourceTree = "<group>"; };
+		E37347B22A15925F000D4E63 /* cactus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cactus.jpeg; sourceTree = "<group>"; };
+		E37347B42A159287000D4E63 /* candy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = candy.jpg; sourceTree = "<group>"; };
+		E37347B62A1592AE000D4E63 /* bush.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bush.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		E33B721D2A143A1800C1CB6D /* BulbaRunner */ = {
 			isa = PBXGroup;
 			children = (
+				E37347AD2A15906C000D4E63 /* bulba.assets */,
 				E33B721E2A143A1800C1CB6D /* AppDelegate.swift */,
 				E33B72202A143A1800C1CB6D /* GameScene.sks */,
 				E33B72222A143A1800C1CB6D /* Actions.sks */,
@@ -69,6 +80,18 @@
 				E33B722D2A143A1900C1CB6D /* LaunchScreen.storyboard */,
 			);
 			path = BulbaRunner;
+			sourceTree = "<group>";
+		};
+		E37347AD2A15906C000D4E63 /* bulba.assets */ = {
+			isa = PBXGroup;
+			children = (
+				E37347B62A1592AE000D4E63 /* bush.jpg */,
+				E37347B42A159287000D4E63 /* candy.jpg */,
+				E37347B22A15925F000D4E63 /* cactus.jpeg */,
+				E37347B02A159228000D4E63 /* bulba.png */,
+				E37347AE2A1591E7000D4E63 /* ground.png */,
+			);
+			path = bulba.assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,10 +152,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37347AF2A1591E7000D4E63 /* ground.png in Resources */,
+				E37347B72A1592AE000D4E63 /* bush.jpg in Resources */,
 				E33B722A2A143A1800C1CB6D /* Main.storyboard in Resources */,
+				E37347B32A15925F000D4E63 /* cactus.jpeg in Resources */,
+				E37347B12A159228000D4E63 /* bulba.png in Resources */,
 				E33B72212A143A1800C1CB6D /* GameScene.sks in Resources */,
 				E33B722C2A143A1900C1CB6D /* Assets.xcassets in Resources */,
 				E33B722F2A143A1900C1CB6D /* LaunchScreen.storyboard in Resources */,
+				E37347B52A159287000D4E63 /* candy.jpg in Resources */,
 				E33B72232A143A1800C1CB6D /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
